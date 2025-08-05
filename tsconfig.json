@@ -31,6 +31,9 @@
       ],
       "@infrastructure/*": [
         "infrastructure/*"
+      ],
+      "@pages/*": [
+        "pages/*"
       ]
     }
   }

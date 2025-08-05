@@ -24,15 +24,16 @@
     "noUncheckedSideEffectImports": true,
 
     /* Paths */
-    "baseUrl": ".",
+    "baseUrl": "src",
     "paths": {
-      "@/*": ["./src/*"],
+      "@/*": ["*"],
       "@app/*": ["app/*"],
       "@entities/*": ["entities/*"],
       "@features/*": ["features/*"],
       "@widgets/*": ["widgets/*"],
       "@shared/*": ["shared/*"],
-      "@infrastructure/*": ["infrastructure/*"]
+      "@infrastructure/*": ["infrastructure/*"],
+      "@pages/*": ["pages/*"]
     }
   },
   "include": ["src"]
