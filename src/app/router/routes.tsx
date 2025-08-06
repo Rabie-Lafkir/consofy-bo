@@ -25,6 +25,14 @@ export const routes: RouteObject[] = [
         path: "login",
         lazy: () => import("@pages/login").then(m => ({ Component: m.default })),
       },
+      {
+        path: "register",
+        lazy: () => import("@pages/register").then(m => ({ Component: m.default })),
+      },
+      {
+        path: "verify-otp",
+        lazy: () => import("@pages/verify-otp").then(m => ({ Component: m.default })),
+      }
     ],
   },
 ];
