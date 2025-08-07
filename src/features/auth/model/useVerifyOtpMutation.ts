@@ -1,4 +1,4 @@
-import { email, z } from "zod";
+import { z } from "zod";
 import { useMutation } from "@tanstack/react-query";
 import { verifyOtp, resendOtp } from "@features/auth/api/otp";
 

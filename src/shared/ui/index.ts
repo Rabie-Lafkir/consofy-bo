@@ -5,3 +5,5 @@ export * from "./input";
 export * from "./label";
 export * from "./form";
 export * from "./input-otp";
+export * from "./logo"
+export * from "./avatar"
